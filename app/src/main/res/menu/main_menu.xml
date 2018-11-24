@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/folder_item"
+          android:title="Folder Wise"
+          android:orderInCategory="101"
+          app:showAsAction="never"/>
+    <item android:id="@+id/all_item"
+          android:title="All Videos"
+          android:orderInCategory="102"
+          app:showAsAction="never"/>
+    <item android:id="@+id/settings"
+          android:title="Settings"
+          android:orderInCategory="103"
+          app:showAsAction="never"/>
+    <item android:id="@+id/rate_item"
+          android:title="Rate the App"
+          android:orderInCategory="104"
+          app:showAsAction="never"/>
+    <item android:id="@+id/share_item"
+          android:title="Share App"
+          android:orderInCategory="105"
+          app:showAsAction="never"/>
+
+</menu>
